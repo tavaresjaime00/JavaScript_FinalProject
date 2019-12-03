@@ -65,7 +65,7 @@ function topProducts(jsonObj) {
         article.appendChild(p1);
         article.appendChild(p2);
         article.appendChild(link);
-        section.appendChild(article);
+        section[i].appendChild(article);
     }
     // append each element to the article, then append the article to the 'products' div section
     
