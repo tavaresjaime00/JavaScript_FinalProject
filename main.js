@@ -57,7 +57,7 @@ function topProducts(jsonObj) {
         h2.textContent = topProducts[i].productName;
         p1.textContent = 'Price: $' + topProducts[i].price;
         p2.textContent = 'Product Info: ' + topProducts[i].productInfo;
-        link.setAttribute('href', topProducts[i].link)
+        link.setAttribute('href', topProducts[i].link);
         link.textContent = 'Link to Product';
         
         article.appendChild(h2);
