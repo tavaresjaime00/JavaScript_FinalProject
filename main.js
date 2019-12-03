@@ -28,7 +28,7 @@ request.onload = function() {
 
 // set up the populateSubheading function to fill the subheading.
 function populateSubheading(jsonObj) {
-    let subheaderH2 = document.createElement('h1');
+    let subheaderH2 = document.createElement('h2');
     subheaderH2.textContent = jsonObj['companyName'];
     head.appendChild(subheaderH2);
 
