@@ -67,11 +67,11 @@ function topProducts(jsonObj) {
         article.appendChild(p1);
         article.appendChild(p2);
         article.appendChild(link);
-        if (i == 1) {
+        if (i == 0) {
             section1.appendChild(article);
-        }else if (i == 2) {
+        }else if (i == 1) {
             section2.appendChild(article);
-        }else if (i == 3) {
+        }else if (i == 2) {
             section3.appendChild(article);
         }
     }
