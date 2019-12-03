@@ -44,7 +44,7 @@ function topProducts(jsonObj) {
 
     for (let i = 0; i < topProducts.length; i++) {
         // create all required elements to display the products semantically.
-        let article = document.createElement('article');
+        let art = document.createElement('article');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
         let p1 = document.createElement('p');
@@ -52,7 +52,7 @@ function topProducts(jsonObj) {
         let p3 = document.createElement('p');
         // grab the data associated with image to set the src and alt att's.
         image.setAttribute('src', 'images/' + topProducts[i].image);
-        image.setAttribute('alt', topFlavours[i].image);
+        image.setAttribute('alt', topProducts[i].image);
         // get the rest of the data
         h2.textContent = topProducts[i].productName;
         p1.textContent = 'Price: ' + topProducts[i].price;
@@ -60,10 +60,10 @@ function topProducts(jsonObj) {
         p3.textContent = 'Link: ' + topProducts[i].link;
     }
     // append each element to the article, then append the article to the 'products' div section
-    article.appendChild(h2);
-    article.appendChild(image);
-    article.appendChild(p1);
-    article.appendChild(p2);
-    article.appendChild(p3);
+    art.appendChild(h2);
+    art.appendChild(image);
+    art.appendChild(p1);
+    art.appendChild(p2);
+    art.appendChild(p3);
     section.appendChild(article);
 }
