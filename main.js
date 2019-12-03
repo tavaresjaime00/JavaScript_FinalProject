@@ -55,9 +55,9 @@ function topProducts(jsonObj) {
         image.setAttribute('alt', topProducts[i].image);
         // get the rest of the data
         h2.textContent = topProducts[i].productName;
-        p1.textContent = 'Price: ' + topProducts[i].price;
+        p1.textContent = 'Price: $' + topProducts[i].price;
         p2.textContent = 'Product Info: ' + topProducts[i].productInfo;
-        p3.textContent = 'Link: ' + topProducts[i].link;
+        p3.textContent = 'Link: ' + '<a href=\"' + topProducts[i].link + '\">' + 'Link to Product' + '</a>';
         
         article.appendChild(h2);
         article.appendChild(image);
