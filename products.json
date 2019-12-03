@@ -1,0 +1,27 @@
+{
+    "companyName" : "Jay's Products",
+    "companyAddress" : "76 Bernick Dr. Barrie, ON",
+    "topProducts" : [
+        {
+            "productName" : "A Hand Squirrel",
+            "price" : 6.50,
+            "productInfo" : "While it's all well and good to have a variety of puppets at your disposal, few things rival this strangely-realistic hand squirrel.",
+            "link" : "https://www.amazon.com/gp/product/B06XXQD54H/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06XXQD54H&linkCode=as2&tag=eathnoth06-20&linkId=220339db14e6c52825948e62e1149b6a",
+            "image" : "squirrel.jpg"
+        },
+        {
+            "productName" : "Nothing",
+            "price" : 6.98,
+            "productInfo" : "What do you get for the person who has everything? Nothing—literally. But unlike traditional nothing, this one will cost you almost $7.",
+            "link" : "https://www.amazon.com/gp/product/B019HDSCPU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HDSCPU&linkCode=as2&tag=eathnoth06-20&linkId=364ed2614125e4c56375632009afaa98",
+            "image" : "nothing.jpg"
+        },
+        {
+            "productName" : "A Baby Gold Grill Pacifier",
+            "price" : 6.95,
+            "productInfo" : "Sure, there are thousands of pacifiers on the market that can keep your child quiet and happy, but only one that will make it look like Lil Wayne.",
+            "link" : "https://www.amazon.com/gp/product/B019HDSCPU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HDSCPU&linkCode=as2&tag=eathnoth06-20&linkId=364ed2614125e4c56375632009afaa98",
+            "image" : "pacifier.jpg"
+        }
+    ]
+}
