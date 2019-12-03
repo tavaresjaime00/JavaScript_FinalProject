@@ -3,6 +3,12 @@ img {
     height: auto;   
 }
 
-section {
-    width: 25%;
+#section1 {
+    width: 30%;
+}
+#section2 {
+    width: 30%;
+}
+#section3 {
+    width: 30%;
 }
