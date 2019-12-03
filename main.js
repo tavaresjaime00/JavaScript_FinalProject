@@ -49,7 +49,7 @@ function topProducts(jsonObj) {
         let image = document.createElement('img');
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
-        let p3 = document.createElement('p');
+        let link = document.createElement('a');
         // grab the data associated with image to set the src and alt att's.
         image.setAttribute('src', 'images/' + topProducts[i].image);
         image.setAttribute('alt', topProducts[i].image);
@@ -57,13 +57,14 @@ function topProducts(jsonObj) {
         h2.textContent = topProducts[i].productName;
         p1.textContent = 'Price: $' + topProducts[i].price;
         p2.textContent = 'Product Info: ' + topProducts[i].productInfo;
-        p3.textContent = 'Link: ' + <a href=\" + topProducts[i].link + \"> + 'Link to Product' + </a>;
+        link.setAttribute('href', topProducts[i].link)
+        link.textContent = 'Link to Product';
         
         article.appendChild(h2);
         article.appendChild(image);
         article.appendChild(p1);
         article.appendChild(p2);
-        article.appendChild(p3);
+        article.appendChild(link);
         section.appendChild(article);
     }
     // append each element to the article, then append the article to the 'products' div section
