@@ -4,7 +4,7 @@ let head = document.getElementById('#subheading');
 let section = document.getElementById('#products');
 
 // create another var to hold link to the JSON file
-let requestURL = "";
+let requestURL = "https://tavaresjaime00.github.io/JavaScript_FinalProject/products.json";
 
 // create a new XHR obj to store a new HTTP request (XMLHttpRequest)
 let request = new XMLHttpRequest();
