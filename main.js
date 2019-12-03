@@ -58,12 +58,15 @@ function topProducts(jsonObj) {
         p1.textContent = 'Price: ' + topProducts[i].price;
         p2.textContent = 'Product Info: ' + topProducts[i].productInfo;
         p3.textContent = 'Link: ' + topProducts[i].link;
+        
+        article.appendChild(h2);
+        article.appendChild(image);
+        article.appendChild(p1);
+        article.appendChild(p2);
+        article.appendChild(p3);
+        section.appendChild(article);
     }
     // append each element to the article, then append the article to the 'products' div section
-    article.appendChild(h2);
-    article.appendChild(image);
-    article.appendChild(p1);
-    article.appendChild(p2);
-    article.appendChild(p3);
-    section.appendChild(article);
+    
+    //section.appendChild(article);
 }
