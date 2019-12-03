@@ -1,7 +1,9 @@
 // JS Document
 // create vars to access header and section elements
 let head = document.querySelector('header');
-let section = document.querySelector('section');
+let section1 = document.getElementById('1');
+let section2 = document.getElementById('2');
+let section3 = document.getElementById('3');
 
 // create another var to hold link to the JSON file
 let requestURL = "https://tavaresjaime00.github.io/JavaScript_FinalProject/products.json";
