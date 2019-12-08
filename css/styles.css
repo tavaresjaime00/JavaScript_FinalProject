@@ -1,0 +1,51 @@
+.row {
+    font-family: 'Solway', serif;
+}
+img {
+    width: 40%;
+}
+
+.header {
+    background-color: deepskyblue;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 15%;
+    width: 30%;
+    margin: auto;
+}
+
+.compInfo {
+
+    background-color: deepskyblue;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 15%;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the three product-sections */
+#pr1 {
+    margin-left: 2%;
+}
+
+#pr1, #pr2, #pr3, #pr4, #pr5 {
+    background-color: deepskyblue;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+h3 {
+    text-decoration-line: underline;
+}
+
+body {
+    overflow-x: hidden;
+}
+.col-sm {
+    width: 100%;
+}
+
+
+

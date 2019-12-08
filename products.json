@@ -1,0 +1,66 @@
+{
+    "companyName" : "Jay's Products",
+    "companyAddress" : "76 Bernick Dr. Barrie, ON",
+    "topProducts" : [
+        {
+            "productName" : "A Hand Squirrel",
+            "price" : 6.50,
+            "productInfo" : "While it's all well and good to have a variety of puppets at your disposal, few things rival this strangely-realistic hand squirrel.",
+            "link" : "https://www.amazon.com/gp/product/B06XXQD54H/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06XXQD54H&linkCode=as2&tag=eathnoth06-20&linkId=220339db14e6c52825948e62e1149b6a",
+            "image" : "squirrel.jpg",
+            "features" : [
+                "Set of 5 finger puppets",
+                "Transforms hand into a squirrel",
+                "Your hand will climb trees and forage for nuts"
+            ]
+        },
+        {
+            "productName" : "Nothing",
+            "price" : 6.98,
+            "productInfo" : "What do you get for the person who has everything? Nothing—literally. But unlike traditional nothing, this one will cost you almost $7.",
+            "link" : "https://www.amazon.com/gp/product/B019HDSCPU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HDSCPU&linkCode=as2&tag=eathnoth06-20&linkId=364ed2614125e4c56375632009afaa98",
+            "image" : "nothing.jpg",
+            "features" : [
+                "A fair amount of nothing for the price, if you're willing to pay more than nothing for nothing.",
+                "It comes with plastic surrounding nothing.",
+                "Nothing can stand in the way of your hopes and dreams!"
+            ]
+        },
+        {
+            "productName" : "A Baby Gold Grill Pacifier",
+            "price" : 6.95,
+            "productInfo" : "Sure, there are thousands of pacifiers on the market that can keep your child quiet and happy, but only one that will make it look like Lil Wayne.",
+            "link" : "https://www.amazon.com/gp/product/B019HDSCPU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019HDSCPU&linkCode=as2&tag=eathnoth06-20&linkId=364ed2614125e4c56375632009afaa98",
+            "image" : "pacifier.jpg",
+            "features" : [
+                "Silicone orthodontic nipple that is kid tested and dentist approved",
+                "There is no other pacifier with this much attitude",
+                "Ages 3 months to 99 years"
+            ]
+        },
+        {
+            "productName" : "An Inflatable Pool Bull",
+            "price" : 34.50,
+            "productInfo" : "When you want to turn your pool party up to 11, try this inflatable bull on for size and see if you can last eight seconds.",
+            "link" : "https://www.amazon.com/gp/product/B07365K4WG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07365K4WG&linkCode=as2&tag=eathnoth06-20&linkId=77bf42c7c0182f254d9eae4119c7eb2e",
+            "image" : "bull.jpeg",
+            "features" : [
+                "Bring the excitement of the rodeo right to your pool",
+                "Bull float offers endless fun and laughs while the outer ring ensures safety and balance",
+                "5 heavy duty handles to hold on to"
+            ]
+        },
+        {
+            "productName" : "A Lincoln Memorial Pillow",
+            "price" : 29.93,
+            "productInfo" : "For some people, simply remembering your eighth grade trip to Washington D.C. isn't enough—and for those people, there's this pillow.",
+            "link" : "https://www.amazon.com/gp/product/B01NCR7WTO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01NCR7WTO&linkCode=as2&tag=eathnoth06-20&linkId=894b50e073b6ed591e8d6f77c9baf383",
+            "image" : "pillow.jpg",
+            "features" : [
+                "The pattern/design is printed on both sides of the pillow, making it more versatile than others",
+                "18 inches by 18 inches, also available in other sizes",
+                "More than just the case/cover, this is a fully stuffed high quality throw pillow"
+            ]
+        }
+    ]
+}
